@@ -1,0 +1,40 @@
+    
+//Cria um produto
+
+POST http://localhost:3000/1920181571514156627664527618114715
+content-type: application/json
+
+{
+  "1920181571514156627664527618114715": {
+    "name": "Strogonoff de frango",
+    "description": "Strogonoff serve 2 pessoas",
+    "price": 15.00
+  }
+}
+
+###
+//Retorna todos os produtos
+
+GET  http://localhost:3000/
+
+
+###
+//Retorna o produto especificado no id
+ 
+GET  http://localhost:3000/
+###
+//Altera um produto
+
+PUT http://localhost:3000/
+content-type: application/json
+
+{
+    "name":"Mochila Nike",
+    "price": 90.00
+
+}
+
+### 
+//Deleta o produto especificado no id
+
+DELETE http://localhost:3000/
